@@ -11,7 +11,7 @@ Instrucciones breves, letra grande, música opcional y ayuda contextual. Cuatro 
 
 ## Revisión final
 
-Se corrigieron pasos del robot, condiciones, récords aleatorios, recorridos del duelo, pausas al abrir información, foco de teclado, singulares y plurales controles con texto ampliado y guardado entre ventanas.
+Se corrigieron pasos del robot, condiciones, récords aleatorios, recorridos del duelo, pausas al abrir información, foco de teclado, singulares y plurales, controles con texto ampliado y guardado entre ventanas.
 
 40 pruebas automáticas superadas. Revisión en navegador a 320 y 390 px y texto al 200 %, sin desbordamiento horizontal. Se verificó un ejemplo de 25 acciones, su reproducción autónoma y la comparación de recorridos humanos y de IA. Captura: `docs/CODE_QUEST_v4_revision.jpg.b64`.
 
@@ -24,3 +24,11 @@ Android: abrir en Chrome y elegir **Instalar aplicación** o **Agregar a la pant
 El repositorio contiene los recursos web públicos en `CODE_QUEST_v4_Publicar.zip.b64`. GitHub Actions verifica el paquete y lo publica en Pages. El respaldo de desarrollo se conserva aparte.
 
 SHA-256: `ddf8a4caa2f45ec0a84305c3f709eab294abd642887e1d31a916c22858d439b8`.
+
+## Actualizar la publicación
+
+1. Subir primero el nuevo paquete web público en `CODE_QUEST_v4_Publicar.zip.b64`.
+2. Actualizar su SHA-256 en `.github/workflows/pages.yml`. Ese cambio inicia la verificación y la publicación.
+3. Confirmar que el flujo **Publicar CODE QUEST 4** termine correctamente antes de anunciar la actualización.
+
+Los cambios de documentación y capturas no activan el despliegue. También se conserva la opción **Run workflow** para una publicación manual.
