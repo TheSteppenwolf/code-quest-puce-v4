@@ -21,7 +21,7 @@ jobs:
       - name: Verificar los recursos públicos de la aplicación
         run: |
           base64 --decode CODE_QUEST_v4_Publicar.zip.b64 > "$RUNNER_TEMP/codequest-v4-web.zip"
-          echo "4eb69cf5a0e55996625b9a70ad47d09a9579b5fd8f6442b9600800f1d0a1c43a  $RUNNER_TEMP/codequest-v4-web.zip" | sha256sum --check
+          echo "c641a0a2d5e7ab0358d064ddb0ed58a2c6b904193c3dd6e6325ceeb4a99d2337  $RUNNER_TEMP/codequest-v4-web.zip" | sha256sum --check
           unzip -q "$RUNNER_TEMP/codequest-v4-web.zip" -d public
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
