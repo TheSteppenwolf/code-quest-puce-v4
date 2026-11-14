@@ -1,6 +1,6 @@
 # CODE QUEST V4 · Ingeniería en Sistemas PUCE
 
-Versión 4.1.3. Aplicación educativa para la casa abierta.
+Versión 4.1.4. Aplicación educativa para la casa abierta.
 
 - [Abrir e instalar](https://thesteppenwolf.github.io/code-quest-puce-v4/)
 - [Vista para celular](https://thesteppenwolf.github.io/code-quest-puce-v4/ver-celular.html)
@@ -23,4 +23,4 @@ Android: abrir en Chrome y elegir **Instalar aplicación** o **Agregar a la pant
 
 El repositorio contiene los recursos web públicos en `CODE_QUEST_v4_Publicar.zip.b64`. GitHub Actions verifica el paquete y lo publica en Pages. El respaldo de desarrollo se conserva aparte.
 
-SHA-256: `15fd0e59a99c13a408532e26bd26a235b8f6ea65593b1d92870c90e954aefdff`.
+SHA-256: `746d8e09e5217af0cd41b7441467d1bc46f509fcc8d1dcabac92c8c59e87e573`.
